@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=UnifrakturMaguntia&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("/fonts/CT3.ttf") format("truetype");
+}
+
+.custom-font {
+  font-family: "CustomFont", sans-serif;
+}
+
+@font-face {
+  font-family: "CustomFont1";
+  src: url("/fonts/CT2.otf") format("truetype");
+}
+
+.btn {
+  background-color: rgb(15, 5, 5);
+  color: #008842;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-font1 {
+  font-family: "CustomFont1", sans-serif;
+}
+
+.sigmar-regular {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}

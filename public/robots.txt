@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vinodakshat.vercel.app/
+
+# Sitemaps
+Sitemap: https://vinodakshat.vercel.app/sitemap.xml
