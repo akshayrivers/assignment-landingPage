@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "langding page",
+  title: "landing page",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
