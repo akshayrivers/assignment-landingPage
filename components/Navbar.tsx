@@ -54,11 +54,11 @@ const Navbar = ({ color }: { color: string }) => {
       {isOpen && (
         <div className="md:hidden flex flex-col items-center bg-black/80 backdrop-blur-lg p-4 space-y-4">
           {[
-            { href: "/", label: "Home" },
-            { href: "/about", label: "About" },
-            { href: "/Projects", label: "Projects" },
-            { href: "/writings", label: "Writings" },
-            { href: "/Contact", label: "Contact" },
+            { href: "#home", label: "Home" },
+            { href: "#featured", label: "featured" },
+            { href: "#latest", label: "latest" },
+            { href: "#reviews", label: "reviews" },
+            { href: "#contact", label: "Contact" },
           ].map(({ href, label }) => (
             <Link
               key={href}
