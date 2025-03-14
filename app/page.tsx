@@ -119,7 +119,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Featured
+          Featured Stories
         </motion.h2>
         <motion.p
           className="max-w-2xl text-center mb-8"
@@ -137,8 +137,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.5 }}
           >
             <Card
-              title="Featured Item 1"
-              description="Description for featured item 1."
+              title="Featured Story 1"
+              description="Description for featured Story 1."
               image="/Picture/pf2.jpg"
               color="amber"
             />
@@ -150,8 +150,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.7 }}
           >
             <Card
-              title="Featured Item 2"
-              description="Description for featured item 2."
+              title="Featured Story 2"
+              description="Description for featured Story 2."
               image="/Picture/pf2.jpg"
               color="red"
             />
@@ -170,7 +170,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Latest
+          Latest Work
         </motion.h2>
         <motion.div
           className="grid grid-cols-1 md:grid-cols-3 gap-4 px-2"
@@ -231,6 +231,13 @@ export default function Home() {
               fiction."
             </p>
             <p className="mt-2 font-semibold text-right">- Traveler Two</p>
+          </div>
+          <div className="p-6 border rounded shadow-md">
+            <p className="italic">
+              "An inspiring journey into the realms of light and shadow. Truly
+              captivating!"
+            </p>
+            <p className="mt-2 font-semibold text-right">- Traveler One</p>
           </div>
         </motion.div>
       </div>
